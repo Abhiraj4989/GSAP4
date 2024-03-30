@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    color: white;
+}
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding: 0px 30px;
+
+}
+
+
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#nav-bar{
+    height: 80px;
+    width: 100%;
+    /* background-color: red; */
+    border-bottom: grey solid 2px;
+   display: flex; 
+   align-items: center;
+   justify-content: space-between;
+
+}
+
+#mid-nav-bar{
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#mid-nav-bar > h3{
+    padding: 15px;
+}
+
+
+
+#end-nav-bar{
+    display: flex;
+    /* background-color: red; */
+}
+
+#image1{
+    margin: 10px;
+  height: 60px;
+  width: 140px;
+}
+
+
+#container{
+    height: 80%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+}
+
+
+#left{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    padding: 80px 40px;
+}
+
+#right{
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+    padding: 80px 40px;
+}
+
+
+#left > h1{
+    font-size: 80px;
+}
+
+#right > img{
+    height: 90%;
+    width: 90%;
+    border-radius: 20px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.box{
+    height: 250px;
+    width: 300px;
+    /* border: red 2px solid; */
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+}
+
+.box > h1{
+    margin-bottom: 20px;
+}
+
+.box > p{
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #dadada;
+}
+
+
+
+#left span > img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: -20px;
+
+}
+
+/* #left h1 span img:nth-child(1){
+    margin-left: 0px;
+} */
+
+#left h1:nth-last-child(1){
+    margin-left: 30px;
+}
+
+
+#left p {
+        margin: 40px 10px;
+        width: 630px;
+        border-bottom: 1px solid   #dadada;
+    
+}
+
+#bottom-text{
+    display: flex;
+    justify-content: space-between;
+}
